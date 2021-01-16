@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".showOptions">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#0077b3"
+        android:gravity="center"
+        android:layout_weight="1">
+
+        <EditText
+            android:id="@+id/ausername"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="Username"
+            android:textColorHint="#FFFFFF"
+            android:gravity="center"
+            android:background="#0099e6"
+            android:textColor="#FFFFFF"
+            android:layout_margin="10dp"/>
+
+        <EditText
+            android:id="@+id/apassword"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="Password"
+            android:textColorHint="#FFFFFF"
+            android:gravity="center"
+            android:background="#0099e6"
+            android:textColor="#FFFFFF"
+            android:layout_margin="10dp"/>
+
+        <Button
+            android:id="@+id/adduser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add user"
+            android:background="#006699"
+            android:layout_margin="10dp"
+            android:textColor="#FFFFFF"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#5c0099"
+        android:gravity="center"
+        android:layout_weight="1">
+
+        <EditText
+            android:id="@+id/dusername"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="Username"
+            android:textColorHint="#FFFFFF"
+            android:gravity="center"
+            android:background="#a31aff"
+            android:textColor="#FFFFFF"
+            android:layout_margin="10dp"/>
+
+        <Button
+            android:id="@+id/deleteuser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Delete "
+            android:background="#4c0080"
+            android:layout_margin="10dp"
+            android:textColor="#FFFFFF"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="#24248f"
+        android:layout_weight="1">
+
+        <EditText
+            android:id="@+id/uusername"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="Username"
+            android:textColorHint="#FFFFFF"
+            android:gravity="center"
+            android:background="#5c5cd6"
+            android:textColor="#FFFFFF"
+            android:layout_margin="10dp"/>
+
+        <EditText
+            android:id="@+id/upassword"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="Password"
+            android:textColorHint="#FFFFFF"
+            android:gravity="center"
+            android:background="#5c5cd6"
+            android:textColor="#FFFFFF"
+            android:layout_margin="10dp"/>
+
+        <Button
+            android:id="@+id/updateuser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Update "
+            android:background="#191966"
+            android:layout_margin="10dp"
+            android:textColor="#FFFFFF"/>
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
